@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BillActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bill"
+        android:gravity="center"
+        android:textSize="@dimen/size_title"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:id="@+id/txtBillAmount"
+        />
+
+    <TextView
+        android:id="@+id/txtBillDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:hint="Select Date"
+
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/userspinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:hint="@string/user" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:text="ADD"
+        android:id="@+id/btnAdd"
+        android:background="@color/colorPrimary"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:text="VIEW DATA"
+        android:id="@+id/btnViewData"
+        android:background="@color/colorPrimary"
+
+        />
+
+
+
+</LinearLayout>

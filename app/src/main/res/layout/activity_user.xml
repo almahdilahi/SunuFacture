@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:gravity="center"
+        android:textSize="@dimen/size_title"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:id="@+id/txtUsername"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:id="@+id/txtLogin"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:id="@+id/txtPassword"
+        android:inputType="textPassword"
+        />
+
+    <Spinner
+        android:id="@+id/rulespinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:hint="@string/rule" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:text="ADD"
+        android:id="@+id/btnAdd"
+        android:background="@color/colorPrimary"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:text="VIEW DATA"
+        android:id="@+id/btnViewData"
+        android:background="@color/colorPrimary"
+
+        />
+
+
+
+</LinearLayout>

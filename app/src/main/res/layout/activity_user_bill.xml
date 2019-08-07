@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserBillActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/size_title"
+        android:textStyle="bold"
+        android:id="@+id/txtBillTitle"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Date"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:id="@+id/txtSettleDate"
+        android:textSize="18dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/billspinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:hint="@string/bill" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:text="REGULATE"
+        android:id="@+id/btnAdd"
+        android:background="@color/colorPrimary"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:text="BILL PAID"
+        android:id="@+id/btnViewData"
+        android:background="@color/colorPrimary"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:text="BILL UNPAID"
+        android:id="@+id/btnViewData1"
+        android:background="@color/colorPrimary"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_sub_title"
+        android:text="ALL BILLS"
+        android:id="@+id/btnViewData2"
+        android:background="@color/colorPrimary"
+
+        />
+
+
+</LinearLayout>
